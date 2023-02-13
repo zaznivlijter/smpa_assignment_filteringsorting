@@ -21,9 +21,15 @@ View(housesales)
 
 
 
+git config --global user.email "zaznivlijter@gwu.edu"
+git config --global user.name "Zazni Vlijter"
+
 # 1) The column "year" indicates the year. Filter to return only results from 2015. 
 # (note that because the column is numeric, you wouldn't use quotes as with text when setting your filter value)
 filter (housesales, year==2015)
+
+
+
 
 
 
