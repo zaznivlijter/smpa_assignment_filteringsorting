@@ -36,7 +36,7 @@ filter (housesales, year==2015)
 
 # 2) Similar to the above question, filter results from 2010 onward, so 2010-2015.
 
-
+filter(housesales, year==2010-2015)
 
 
 
