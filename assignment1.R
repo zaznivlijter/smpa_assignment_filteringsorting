@@ -58,7 +58,9 @@ filter(city == "Houston",year==2010)
 # 5) Build on what you've done above. Filter for only where the city is Houston as above, 
 # and the year is 2010. Now add a sort using arrange() to sort the results based on the number
 # of home sales (the "sales" column) from most to least.
-
+housesales %>% 
+filter(city == "Houston",year==2010)%>% 
+arrange(desc("sales"))
 
 
 
