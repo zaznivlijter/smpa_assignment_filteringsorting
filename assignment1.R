@@ -49,7 +49,8 @@ housesales %>% filter(city =="Houston")
 
 # 4) Filter for only where the city is Houston as above, and now also filter for only 
 # the year 2010. The results should give you 12 records, one for each month in 2010 for Houston.
-
+housesales %>% 
+filter(city == "Houston",year==2010)
 
 
 
