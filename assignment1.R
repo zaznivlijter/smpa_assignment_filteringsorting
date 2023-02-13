@@ -91,7 +91,8 @@ housesales%>% filter(city=="Dallas", month==06)
 # 8) Build on what we've done above. Now that we have June numbers for Dallas for every year,
 # arrange the results by sales from highest-to-lowest to show what year had the highest June sales.
 
-
+housesales%>% filter(city=="Dallas", month==06) %>%
+arrange(desc("sales"))
 
 
 
