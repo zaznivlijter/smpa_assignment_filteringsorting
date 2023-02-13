@@ -42,7 +42,7 @@ housesales %>% filter(year == 2010-2015)
 
 # 3) The "city" column contains the relevant city. Filter to return only results for Houston
 # (note, remember R is case sensitive)
-filter(housesales,city==Houston)
+housesales %>% filter(city =="Houston")
 
 
 
