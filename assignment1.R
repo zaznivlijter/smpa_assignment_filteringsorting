@@ -67,7 +67,9 @@ arrange(desc("sales"))
 
 # 6) Piggyback on what you've done above. 
 # Do the same as #5, only this time instead of Houston return records for Dallas
-
+housesales %>% 
+filter(city == "Dallas",year==2010)%>% 
+arrange(desc("sales"))
 
 
 
