@@ -26,7 +26,7 @@ git config --global user.name "Zazni Vlijter"
 
 # 1) The column "year" indicates the year. Filter to return only results from 2015. 
 # (note that because the column is numeric, you wouldn't use quotes as with text when setting your filter value)
-filter(housesales,year==2015)
+housesales %>% filter(year == 2015)
 
 
 
@@ -34,14 +34,15 @@ filter(housesales,year==2015)
 
 
 # 2) Similar to the above question, filter results from 2010 onward, so 2010-2015.
+housesales %>% filter(year == 2010-2015)
 
-filter(housesales,year==2010-2015)
+
 
 
 
 # 3) The "city" column contains the relevant city. Filter to return only results for Houston
 # (note, remember R is case sensitive)
-
+filter(housesales,city==Houston)
 
 
 
