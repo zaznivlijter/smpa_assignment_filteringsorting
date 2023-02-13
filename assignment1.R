@@ -83,6 +83,7 @@ arrange(desc("sales"))
 #
 # Filter for the city is Dallas, and the month is June (the number 6). 
 
+housesales%>% filter(city=="Dallas", month==06)
 
 
 
